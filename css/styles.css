@@ -78,12 +78,15 @@ img {
 /* ========== END COMPONENTS ========== */
 
 /* ========== HEADER ========== */
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+
 .header .container {
   display: flex;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -115,6 +118,9 @@ img {
 }
 
 .navigation-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -266,6 +272,7 @@ img {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+  background-color: #ffffff;
 }
 
 .team-list-content {
